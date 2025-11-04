@@ -1,0 +1,127 @@
+main { /* Element selector */
+  padding: 16px; /* CSS property: padding */
+  max-width: 1200px; /* CSS property: max-width */
+  margin: 96px auto 16px; /* CSS property: margin */
+} /* End of CSS rule block */
+
+.contact-main { /* Class selector */
+  text-align: justify; /* CSS property: text-align */
+} /* End of CSS rule block */
+
+h2 { /* Element selector */
+  margin: 24px 0 16px 0; /* CSS property: margin */
+  font-weight: 700; /* CSS property: font-weight */
+  font-size: 24px; /* CSS property: font-size */
+  line-height: 1.3; /* CSS property: line-height */
+  color: #222; /* CSS property: color */
+} /* End of CSS rule block */
+
+h3 { /* Element selector */
+  margin: 16px 0 8px 0; /* CSS property: margin */
+  font-weight: 600; /* CSS property: font-weight */
+  font-size: 22px; /* CSS property: font-size */
+  color: #333; /* CSS property: color */
+} /* End of CSS rule block */
+
+.contact-main p, /* CSS content */
+.contact-main address, /* CSS content */
+.contact-main form, /* CSS content */
+.contact-main .copyright-block { /* Class selector */
+  text-align: left; /* CSS property: text-align */
+  margin-left: 0; /* CSS property: margin-left */
+} /* End of CSS rule block */
+
+form { /* Element selector */
+  max-width: 700px; /* CSS property: max-width */
+  width: 100%; /* CSS property: width */
+  margin: 16px auto; /* CSS property: margin */
+  background-color: #fafafa; /* CSS property: background-color */
+  padding: 16px; /* CSS property: padding */
+  border-radius: 8px; /* CSS property: border-radius */
+  border: 1px solid #ddd; /* CSS property: border */
+  box-sizing: border-box; /* CSS property: box-sizing */
+} /* End of CSS rule block */
+
+fieldset { /* CSS selector */
+  border: none; /* CSS property: border */
+  padding: 0; /* CSS property: padding */
+  margin: 0; /* CSS property: margin */
+} /* End of CSS rule block */
+
+label { /* CSS selector */
+  font-weight: 600; /* CSS property: font-weight */
+  margin-top: 12px; /* CSS property: margin-top */
+  display: block; /* CSS property: display */
+  color: #333; /* CSS property: color */
+} /* End of CSS rule block */
+
+input[type="text"], /* CSS content */
+input[type="email"], /* CSS content */
+textarea { /* Element selector */
+  width: 100%; /* CSS property: width */
+  padding: 8px; /* CSS property: padding */
+  margin-top: 4px; /* CSS property: margin-top */
+  border: 1px solid #ccc; /* CSS property: border */
+  border-radius: 6px; /* CSS property: border-radius */
+  font-family: inherit; /* CSS property: font-family */
+  font-size: 16px; /* CSS property: font-size */
+  box-sizing: border-box; /* CSS property: box-sizing */
+  transition: border-color 0.3s ease; /* CSS property: transition */
+} /* End of CSS rule block */
+
+input[type="text"]:focus, /* CSS content */
+input[type="email"]:focus, /* CSS content */
+textarea:focus { /* Pseudo-class or element selector */
+  border-color: #f44336; /* CSS property: border-color */
+  outline: none; /* CSS property: outline */
+  box-shadow: 0 0 5px rgba(244, 67, 54, 0.3); /* CSS property: box-shadow */
+} /* End of CSS rule block */
+
+textarea { /* Element selector */
+  min-height: 100px; /* CSS property: min-height */
+  resize: vertical; /* CSS property: resize */
+} /* End of CSS rule block */
+
+input[type="submit"] { /* CSS selector */
+  margin-top: 16px; /* CSS property: margin-top */
+  background-color: darkslategrey; /* CSS property: background-color */
+  color: lightgray; /* CSS property: color */
+  font-size: medium; /* CSS property: font-size */
+  border: none; /* CSS property: border */
+  padding: 12px 20px; /* CSS property: padding */
+  border-radius: 6px; /* CSS property: border-radius */
+  font-weight: 700; /* CSS property: font-weight */
+  cursor: pointer; /* CSS property: cursor */
+  transition: background-color 0.3s ease; /* CSS property: transition */
+} /* End of CSS rule block */
+
+input[type="submit"]:hover, /* CSS content */
+input[type="submit"]:focus { /* Pseudo-class or element selector */
+  background-color: #ff0000; /* CSS property: background-color */
+  color: white; /* CSS property: color */
+} /* End of CSS rule block */
+
+input[disabled], /* CSS content */
+textarea[disabled] { /* CSS selector */
+  background-color: #eee; /* CSS property: background-color */
+  cursor: not-allowed; /* CSS property: cursor */
+  opacity: 0.6; /* CSS property: opacity */
+} /* End of CSS rule block */
+
+address { /* CSS selector */
+  font-style: normal; /* CSS property: font-style */
+  line-height: 1.6; /* CSS property: line-height */
+  margin: 16px 0; /* CSS property: margin */
+} /* End of CSS rule block */
+
+address a { /* CSS selector */
+  color: #f44336; /* CSS property: color */
+  text-decoration: none; /* CSS property: text-decoration */
+  font-weight: 500; /* CSS property: font-weight */
+} /* End of CSS rule block */
+
+address a:hover, /* CSS content */
+address a:focus { /* Pseudo-class or element selector */
+  text-decoration: underline; /* CSS property: text-decoration */
+  color: #d32f2f; /* CSS property: color */
+} /* End of CSS rule block */

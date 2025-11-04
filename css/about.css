@@ -1,0 +1,114 @@
+h2 { /* Element selector */
+  font-size: 24px; /* CSS property: font-size */
+  font-weight: normal; /* CSS property: font-weight */
+  text-align: center; /* CSS property: text-align */
+} /* End of CSS rule block */
+
+p { /* Element selector */
+  font-size: 18px; /* CSS property: font-size */
+} /* End of CSS rule block */
+
+main > div { /* CSS selector */
+  background-color: #E3DFDE; /* CSS property: background-color */
+  border-radius: 10px; /* CSS property: border-radius */
+  font-size: 30px; /* CSS property: font-size */
+  padding: 20px; /* CSS property: padding */
+  text-align: left; /* CSS property: text-align */
+} /* End of CSS rule block */
+
+main > div > a { /* CSS selector */
+  color: #ff5100; /* CSS property: color */
+  font-size: 18px; /* CSS property: font-size */
+} /* End of CSS rule block */
+
+main > div > a:hover { /* Pseudo-class or element selector */
+  background-color: #4B3C35; /* CSS property: background-color */
+  color: #E3DFDE; /* CSS property: color */
+} /* End of CSS rule block */
+
+main > div > a:focus { /* Pseudo-class or element selector */
+  background-color: #4B3C35; /* CSS property: background-color */
+  color: #E3DFDE; /* CSS property: color */
+  outline: none; /* CSS property: outline */
+} /* End of CSS rule block */
+
+#container1{ /* ID selector */
+  background-color: #fafafa; /* CSS property: background-color */
+  color: 2d2d2d; /* CSS property: color */
+  grid-area: area1; /* CSS property: grid-area */
+  text-align: justify; /* CSS property: text-align */
+} /* End of CSS rule block */
+
+#container2 { /* ID selector */
+  grid-area: area2; /* CSS property: grid-area */
+  background-color: #fafafa; /* CSS property: background-color */
+  color: 2d2d2d; /* CSS property: color */
+  text-align: justify; /* CSS property: text-align */
+} /* End of CSS rule block */
+
+#container3 { /* ID selector */
+  grid-area: area3; /* CSS property: grid-area */
+  background-color: #fafafa; /* CSS property: background-color */
+  color: 2d2d2d; /* CSS property: color */
+  text-align: justify; /* CSS property: text-align */
+} /* End of CSS rule block */
+
+#container4 { /* ID selector */
+  grid-area: area4; /* CSS property: grid-area */
+  background-color: #fafafa; /* CSS property: background-color */
+  color: 2d2d2d; /* CSS property: color */
+  text-align: center; /* CSS property: text-align */
+  display: flex; /* CSS property: display */
+  flex-direction: column; /* CSS property: flex-direction */
+  align-items: center; /* CSS property: align-items */
+  justify-content: center; /* CSS property: justify-content */
+} /* End of CSS rule block */
+
+#container4 img { /* CSS selector */
+  max-width: 100%; /* CSS property: max-width */
+  height: auto; /* CSS property: height */
+  border-radius: 8px; /* CSS property: border-radius */
+  margin-bottom: 10px; /* CSS property: margin-bottom */
+} /* End of CSS rule block */
+
+#container4 p { /* CSS selector */
+  font-size: 24px; /* CSS property: font-size */
+  font-weight: bold; /* CSS property: font-weight */
+  margin: 10px 0; /* CSS property: margin */
+} /* End of CSS rule block */
+
+main { /* Element selector */
+  display: grid; /* CSS property: display */
+  grid-template-areas: /* CSS content */
+    'area1' /* CSS content */
+    'area2' /* CSS content */
+    'area3' /* CSS content */
+    'area4'; /* CSS content */
+  grid-template-columns: auto; /* CSS property: grid-template-columns */
+  grid-template-rows: auto; /* CSS property: grid-template-rows */
+  grid-gap: 20px; /* CSS property: grid-gap */
+  padding: 20px; /* CSS property: padding */
+} /* End of CSS rule block */
+
+@media only screen and (min-width: 992px) { /* Media query */
+  main { /* Element selector */
+    grid-template-areas: /* CSS content */
+    'area1 area2' /* CSS content */
+    'area3 area4'; /* CSS content */
+  } /* End of CSS rule block */
+} /* End of CSS rule block */
+
+
+footer { /* Element selector */
+  background-color: #434a53; /* CSS property: background-color */
+  color: #ffffff; /* CSS property: color */
+  padding: 16px 32px; /* CSS property: padding */
+  text-align: center; /* CSS property: text-align */
+  font-size: 16px; /* CSS property: font-size */
+  width: 100%; /* CSS property: width */
+  position: bottom; /* CSS property: position */
+} /* End of CSS rule block */
+
+figcaption {
+  font-size: 15px; /* You can adjust this value as needed */
+}

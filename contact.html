@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!-- Document type declaration for HTML5 -->
+<html lang="en"> <!-- Opening HTML tag with language attribute -->
+<head> <!-- Opening head tag - contains metadata -->
+  <meta charset="UTF-8" /> <!-- Character encoding declaration -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Viewport settings for responsive design -->
+  <meta name="description" content="LEGO Stormtrooper photography site" /> <!-- Meta tag -->
+  <title>Lego Troopers | Contact </title> <!-- Page title displayed in browser tab -->
+  <link rel="stylesheet" href="css/style.css" /> <!-- External CSS stylesheet link -->
+  <link rel="stylesheet" href="css/contact.css" /> <!-- External CSS stylesheet link -->
+</head> <!-- Closing head tag -->
+
+<body> <!-- Opening body tag - visible page content -->
+  <header> <!-- Opening header section -->
+    <h1>Lego Troopers</h1> <!-- Main heading level 1 -->
+
+    <input id="hamburger_checkbox" type="checkbox" /> <!-- Input field of type 'checkbox' -->
+
+    <label for="hamburger_checkbox" id="hamburger_menu" aria-label="Expand and collapse menu."> <!-- Form label -->
+      <img id="hamburger_icon" src="images/hamburger-menu.png" alt="Menu" width="24" height="18" /> <!-- Image element -->
+    </label> <!-- Closing form label -->
+
+    <nav> <!-- Opening navigation section -->
+      <a href="index.html">Home</a> <!-- Anchor/link element -->
+      <a href="photos.html">Photos</a> <!-- Anchor/link element -->
+      <a href="about.html">About</a> <!-- Anchor/link element -->
+      <a class="active_nav" href="contact.html">Contact</a> <!-- Anchor/link element -->
+    </nav> <!-- Closing navigation section -->
+  </header> <!-- Closing header section -->
+  <form> <!-- Opening form element -->
+        <fieldset> <!-- HTML element -->
+          <h3>Join the Dark Side!</h3> <!-- Heading level 3 -->
+
+          <label for="name">Name:</label> <!-- Form label -->
+          <input type="text" id="name" name="name" placeholder="Your Name" /><br /> <!-- Input field of type 'text' -->
+
+          <label for="email">Email:</label> <!-- Form label -->
+          <input type="email" id="email" name="email" placeholder="your.comlink@empire.com" /><br /> <!-- Input field of type 'email' -->
+
+          <label for="message">Message:</label> <!-- Form label -->
+          <textarea id="message" name="message" rows="5" placeholder="Report your findings to the Emperor"></textarea><br /> <!-- Opening textarea element -->
+
+          <input type="submit" value="Send Transmission to the Emperor" /> <!-- Input field of type 'submit' -->
+        </fieldset> <!-- HTML element -->
+      </form> <!-- Closing form element -->
+
+  <footer> <!-- Opening footer section -->
+    <p>&copy; 2025 Lego Troopers | All rights reserved | Akila </p> <!-- Opening paragraph -->
+  </footer> <!-- Closing footer section -->
+</body> <!-- Closing body tag -->
+</html> <!-- Closing HTML tag -->

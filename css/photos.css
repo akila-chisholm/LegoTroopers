@@ -1,0 +1,73 @@
+/* Mobile First View */
+/* Photo Grid */
+#row { /* ID selector */
+	display: flex; /* CSS property: display */
+	flex-wrap: wrap; /* CSS property: flex-wrap */
+	padding: 0 12px; /* CSS property: padding */
+	vertical-align: middle; /* CSS property: vertical-align */
+} /* End of CSS rule block */
+
+.column { /* Class selector */
+	text-align: center; /* CSS property: text-align */
+	margin-top: 50px; /* CSS property: margin-top */
+	margin-left: auto; /* CSS property: margin-left */
+	margin-right: auto; /* CSS property: margin-right */
+	max-width: 100%; /* CSS property: max-width */
+	vertical-align: middle; /* CSS property: vertical-align */
+} /* End of CSS rule block */
+
+.column img { /* Class selector */
+  width: 100%;         /* fill the column width */
+  height: auto;        /* maintain image aspect ratio */
+  aspect-ratio: 4 / 3; /* enforce 4:3 ratio */
+  object-fit: cover;   /* cover the area, cropping if needed */
+  padding-bottom: 10px; /* CSS property: padding-bottom */
+  display: block; /* CSS property: display */
+} /* End of CSS rule block */
+
+
+/* For desktops */
+@media only screen and (min-width: 768px) { /* Media query */
+	.column { /* Class selector */
+		max-width: 50%; /* CSS property: max-width */
+		padding: 0 6px; /* CSS property: padding */
+	} /* End of CSS rule block */
+
+	#row { /* ID selector */
+	padding: 0 6px; /* CSS property: padding */
+	} /* End of CSS rule block */
+} /* End of CSS rule block */
+
+header { /* Element selector */
+  background-color: #434a53; /* CSS property: background-color */
+  color: #ffffff; /* CSS property: color */
+  padding: 16px 32px; /* CSS property: padding */
+  position: sticky; /* CSS property: position */
+  top: 0; /* CSS property: top */
+  left: 0; /* CSS property: left */
+  width: 100%; /* CSS property: width */
+  z-index: 1000; /* CSS property: z-index */
+  display: flex; /* CSS property: display */
+  justify-content: space-between; /* CSS property: justify-content */
+  align-items: center; /* CSS property: align-items */
+  box-shadow: none; /* CSS property: box-shadow */
+} /* End of CSS rule block */
+/* Footer Styles */
+footer { /* Element selector */
+  background-color: #434a53; /* CSS property: background-color */
+  color: #ffffff; /* CSS property: color */
+  padding: 16px 32px; /* CSS property: padding */
+  text-align: center; /* CSS property: text-align */
+  font-size: 1rem; /* CSS property: font-size */
+  width: 100%; /* CSS property: width */
+  position: relative; /* CSS property: position */
+} /* End of CSS rule block */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { /* Media query */
+	.column { /* Class selector */
+		max-width: 25%; /* CSS property: max-width */
+	} /* End of CSS rule block */
+} /* End of CSS rule block */
+
